@@ -1,4 +1,6 @@
-/// Digital I/O
+//! Digital I/O
+//!
+//! Version 2 / vallible traits. Infallable implementations should set Error to `!`.
 
 /// Single digital push-pull output pin
 pub trait OutputPin {
