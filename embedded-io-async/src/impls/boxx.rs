@@ -1,3 +1,8 @@
+#![deny(
+    clippy::missing_trait_methods,
+    reason = "Methods should be forwarded to the underlying type"
+)]
+
 use crate::{BufRead, Read, Seek, SeekFrom, Write};
 use alloc::boxed::Box;
 
